@@ -1,3 +1,4 @@
+@media screen and (min-width:320px){
 body{
     font-family: "Roboto", sans-serif;
     color: #2e2f42;
@@ -914,26 +915,27 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-text:focus {
     border-color: #4d5ae5;
 }
-
+}
 @media screen and (min-width:768px) {
     .container {
-        width:100%;
+        max-width:768px;
     }
 .header-menu-list {
     display: flex;
-    padding-top: 24px;
+    padding-top: 0;
 
 }
 
-.header-contact-list {
 
+/* .header-contact-list {
     gap: 12px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     align-items: flex-end;
     margin-left: 0;
-}
+    flex-direction: column;
+} */
 
 .header-contact-list-wrap {
     display: flex;
@@ -965,8 +967,14 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .header-contact-list {
     display: flex;
-    flex-direction: row;
-    gap: 40px;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: auto;
+    font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+}
+.address-header-contact{
     margin-left: auto;
 }
 
@@ -1052,6 +1060,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 @media screen and (min-width:1158px) {
+    .container{
+        max-width: 1158px;
+    }
     .header {
         padding-top: 0;
         /* padding-bottom: 24px; */
@@ -1065,9 +1076,13 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
-
     }
-
+.header-menu-list{
+    padding-top: 0;
+}
+.address-header-contact{
+    margin-left: auto;
+}
 .features-icons {
     border: 1px solid #8e8f99;
     border-radius: 4px;
