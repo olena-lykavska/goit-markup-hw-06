@@ -406,10 +406,6 @@ height: 432px;
     margin-bottom: 72px;
 }
 
-.team-img{
-    margin-bottom: 32px;
-}
-
 .team-subtitle{
     font-weight: 500;
     font-size: 20px;
@@ -430,16 +426,14 @@ height: 432px;
 
 .team-social-list{
     display: flex;
+    justify-content: center;
+}
+.team-wrap{
+    padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.team-social-item:first-child{
-padding-left: 16px;
-}
 
-.team-social-item:last-child {
-    padding-right: 16px;
-}
 
 .team-social-item:not(:last-child){
     margin-right: 24px;
@@ -463,9 +457,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .team-item{
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     width: 264px;
-    height: 428px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
@@ -498,7 +490,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     /* width: 360px;
     height: 420px; */
     width: 288px;
-    height: 400px;
     border: 1px solid #e7e9fc;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     border: none;
@@ -508,6 +499,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-top: none;
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 16px;
 }
 
 .portfolio-item:hover{
@@ -529,7 +521,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    padding-left: 16px;
+
 }
 
 .portfolio-img{
@@ -544,7 +536,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-left: 16px;
+
 }
 
 .portfolio-cover-wrap{
@@ -1014,7 +1006,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         text-align: left;
     }
 .team {
-    padding: 96px 92px;
+    padding: 96px 0;
 }
 
 .team-list {
@@ -1027,7 +1019,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .portfolio-item {
     width: 356px;
-    height: 420px;
 }
 .portfolio-img {
     width: 356px;
@@ -1136,9 +1127,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     gap:  24px;
     justify-content: center;
     flex-wrap: nowrap;
-
 }
 
+.portfolio-list {
+    gap: 48px 24px;
+}
 
 .footer {
     padding: 0;
