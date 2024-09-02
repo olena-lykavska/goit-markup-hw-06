@@ -338,6 +338,9 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="
+                  ./images/img-mark-guerrero-2x.jpg 2x
+                "
                 src="./images/img-mark-guerrero.jpg"
                 width="264"
                 height="260"
@@ -421,6 +424,9 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="
+                  ./images/img-tom-ford-2x.jpg 2x
+                "
                 src="./images/img-tom-ford.jpg"
                 width="264"
                 height="260"
@@ -504,6 +510,9 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="
+                  ./images/img-camila-garcia-2x.jpg 2x
+                "
                 src="./images/img-camila-garcia.jpg"
                 width="264"
                 height="260"
@@ -585,6 +594,9 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="
+                  ./images/img-daniel-wilson-2x.jpg 2x
+                "
                 src="./images/img-daniel-wilson.jpg"
                 width="264"
                 height="260"
@@ -676,13 +688,50 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
-                <img
+                <picture>
+                  <!-- Мобільна версія -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/banking-app-mob.jpg    1x,
+                      ./images/banking-app-mob-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Планшетна версія -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/banking-app-tab.jpg    1x,
+                      ./images/banking-app-tab-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Десктопна версія -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/banking-app-desk.jpg    1x,
+                      ./images/banking-app-desk-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Резервне зображення -->
+                  <img
+                    class="portfolio-img"
+                    src="./images/img-banking-app.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+                <!-- <img
                   class="portfolio-img"
                   src="./images/img-banking-app.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
-                />
+                /> -->
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App
                   Design Concepts · Task Manager
@@ -700,13 +749,50 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
-                <img
+                <picture>
+                  <!-- Мобільна версія -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/cashless-payment-mob.jpg    1x,
+                      ./images/cashless-payment-mob-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Планшетна версія -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/cashless-payment-tab.jpg    1x,
+                      ./images/cashless-payment-tab-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Десктопна версія -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/cashless-payment-desk.jpg    1x,
+                      ./images/cashless-payment-desk-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Резервне зображення -->
+                  <img
+                    class="portfolio-img"
+                    src="./images/img-cashless-payment.jpg"
+                    alt="Cashless Payment"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+                <!-- <img
                   class="portfolio-img"
                   src="./images/img-cashless-payment.jpg"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
-                />
+                /> -->
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App
                   Design Concepts · Task Manager
@@ -726,13 +812,50 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
-                <img
+                <picture>
+                  <!-- Мобільна версія -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/meditation-app-mob.jpg    1x,
+                      ./images/meditation-app-mob-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Планшетна версія -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/meditation-app-tab.jpg    1x,
+                      ./images/meditation-app-tab-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Десктопна версія -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/meditation-app-desk.jpg    1x,
+                      ./images/meditation-app-desk-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Резервне зображення -->
+                  <img
+                    class="portfolio-img"
+                    src="./images/img-meditation-app.jpg"
+                    alt="Meditation App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+                <!-- <img
                   class="portfolio-img"
                   src="./images/img-meditation-app.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
-                />
+                /> -->
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App
                   Design Concepts · Task Manager
@@ -750,13 +873,50 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
-                <img
+                <picture>
+                  <!-- Мобільна версія -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/taxi-service-mob.jpg    1x,
+                      ./images/taxi-service-mob-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Планшетна версія -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/taxi-service-tab.jpg    1x,
+                      ./images/taxi-service-tab-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Десктопна версія -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/taxi-service-desk.jpg    1x,
+                      ./images/taxi-service-desk-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Резервне зображення -->
+                  <img
+                    class="portfolio-img"
+                    src="./images/img-taxi-service.jpg"
+                    alt="Taxi Service"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+                <!-- <img
                   class="portfolio-img"
                   src="./images/img-taxi-service.jpg"
                   alt="Taxi Service"
                   width="360"
                   height="300"
-                />
+                /> -->
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App
                   Design Concepts · Task Manager
@@ -776,13 +936,50 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
-                <img
+                <picture>
+                  <!-- Мобільна версія -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/screen-illustrations-mob.jpg    1x,
+                      ./images/screen-illustrations-mob-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Планшетна версія -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/screen-illustrations-tab.jpg    1x,
+                      ./images/screen-illustrations-tab-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Десктопна версія -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/screen-illustrations-desk.jpg    1x,
+                      ./images/screen-illustrations-desk-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Резервне зображення -->
+                  <img
+                    class="portfolio-img"
+                    src="./images/img-screen-illustrations.jpg"
+                    alt="Screen Illustrations"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+                <!-- <img
                   class="portfolio-img"
                   src="./images/img-screen-illustrations.jpg"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
-                />
+                /> -->
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App
                   Design Concepts · Task Manager
@@ -802,13 +999,50 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
-                <img
+                <picture>
+                  <!-- Мобільна версія -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/online-courses-mob.jpg    1x,
+                      ./images/online-courses-mob-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Планшетна версія -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/online-courses-tab.jpg    1x,
+                      ./images/online-courses-tab-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Десктопна версія -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/online-courses-desk.jpg    1x,
+                      ./images/online-courses-desk-2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Резервне зображення -->
+                  <img
+                    class="portfolio-img"
+                    src="./images/img-online-courses.jpg"
+                    alt="Online Courses"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+                <!-- <img
                   class="portfolio-img"
                   src="./images/img-online-courses.jpg"
                   alt="Online Courses"
                   width="360"
                   height="300"
-                />
+                /> -->
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App
                   Design Concepts · Task Manager
@@ -952,7 +1186,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg
@@ -1069,11 +1303,13 @@
                   ></use>
                 </svg>
               </span>
-              I accept the terms and conditions of
-              the
-              <a href="" class="check-link">
-                Privacy Policy</a
-              ></label
+              <span class="privacy-acception">
+                I accept the terms and conditions
+                of the
+                <a href="" class="check-link">
+                  Privacy Policy</a
+                >
+              </span></label
             >
           </div>
           <button
